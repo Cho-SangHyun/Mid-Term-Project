@@ -95,3 +95,13 @@ body {
     position: relative;
     top: 225px;
 }
+
+.ai-text {
+    position: relative;
+    top: 350px;
+}
+
+.back-text {
+    position: relative;
+    top: 150px;
+}
