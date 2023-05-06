@@ -12,6 +12,9 @@ body {
 
 .section {
     width: 100%;
+}
+
+.intro {
     height: 700px;
 }
 
@@ -43,4 +46,52 @@ body {
     font-size: 3rem;
     font-weight: 900;
     margin: 0;
+}
+
+.section-title {
+    margin: 0 auto 47px;
+    width: 90%;
+    font-size: 6rem;
+    color: rgb(29, 29, 31);
+    font-weight: 900;
+}
+
+.experience-text-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.experience-text {
+    color: rgb(134, 134, 149);
+    font-size: 21px;
+    font-weight: 600px;
+
+    margin: 0;
+    width: 600px;
+}
+
+.experience-text strong {
+    color:rgb(29, 29, 31);
+}
+
+.experience-section {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.front-text {
+    position: relative;
+    top: 300px;
+}
+
+.experience-leveldb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leveldb-text {
+    position: relative;
+    top: 225px;
 }
