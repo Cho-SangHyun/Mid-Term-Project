@@ -105,3 +105,11 @@ body {
     position: relative;
     top: 150px;
 }
+
+.section.trying {
+    padding: 100px 0;
+}
+
+.trying-wrapper {
+    text-align: center;
+}
