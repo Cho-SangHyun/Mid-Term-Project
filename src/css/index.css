@@ -14,17 +14,17 @@ body {
     width: 100%;
 }
 
-.intro {
+.section.intro {
     height: 700px;
 }
 
 .intro-section {
     width: 520px;
-    position: absolute;
-    height: 265px;
-    top: 50%;
+    margin: 150px auto;
+    /* position: absolute;
+    top: 60%;
     left: 50%;
-    transform: translate(-50%, -70%);
+    transform: translate(-50%, -70%); */
 }
 
 .intro-headlines-wrapper {
@@ -48,6 +48,33 @@ body {
     margin: 0;
 }
 
+.greeting-text {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.contact-list li {
+    margin-bottom: 0.5rem;
+}
+
+.contact-list li a{
+    text-decoration: none;
+    color: rgb(134, 134, 149);
+}
+
+.contact-list li a:hover {
+    color: rgb(29, 29, 31);
+}
+
 .section-title {
     margin: 0 auto 47px;
     width: 90%;
@@ -67,7 +94,7 @@ body {
     font-weight: 600px;
 
     margin: 0;
-    width: 600px;
+    width: 45%;
 }
 
 .experience-text strong {
@@ -78,6 +105,7 @@ body {
     width: 90%;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .front-text {
@@ -86,9 +114,16 @@ body {
 }
 
 .experience-leveldb {
+    width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.experience-leveldb iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .leveldb-text {
